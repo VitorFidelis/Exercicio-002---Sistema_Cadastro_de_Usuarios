@@ -3,7 +3,7 @@
  
 Exercício: Sistema de Cadastro de Usuários
 
-1. Classe Usuario
+1. Classe Usuario</br>
 Crie uma classe chamada Usuario com os seguintes elementos:
 - Atributos:
 	- nome (do tipo String)
@@ -15,20 +15,20 @@ Crie uma classe chamada Usuario com os seguintes elementos:
 	- getIdade(): retorna a idade do usuário.
 
 
-2. Classe CadastroException
+2. Classe CadastroException</br>
 Crie uma classe chamada CadastroException que estenda Exception, com:
 - Construtor:
 	- Deve aceitar uma mensagem de erro como parâmetro.
 
 
-3. Classe SistemaCadastro
+3. Classe SistemaCadastro</br>
 Crie uma classe chamada SistemaCadastro com um método para cadastrar usuários:
 - Método cadastrarUsuario(Usuario usuario):
 	- Se a idade do usuário for menor que 18 anos, deve lançar uma CadastroException.
 	- Caso contrário, o usuário deve ser adicionado a uma lista de usuários.
 
 
-4. Classe Main
+4. Classe Main</br>
 Crie uma classe chamada Main contendo o método main, que deve:
 	- Criar instâncias da classe Usuario.
 	- Chamar o método cadastrarUsuario() dentro de um bloco try-catch.
