@@ -18,7 +18,7 @@ public class Main {
 		try {
 //			no metodo cadastraUsuario tem uma validação que valida se o usuario informado
 //			tem idade menor que 18, se tiver idade menor que 18 é lançado uma exceção personalizada
-//			informando que o usuario deve ter idade superior a 18. caso contrario é o usuario adicionado
+//			informando que o usuario deve ter idade superior a 18. caso contrario o usuario é adicionado
 //			na lista de usuarios.
 			sistema.cadastrarUsuario(user2);//usuario com idade maior que 18
 			sistema.cadastrarUsuario(user3);//usuario com idade maior que 18
@@ -28,7 +28,7 @@ public class Main {
 			
 //			Captura a exceção personalizada chamada CadastroException e armazena na referencia chamada ex
 		} catch (CadastroException ex) {
-//			imprime no console a mensagem personalida da exceção capturada
+//			imprime no console a mensagem personalizada da exceção capturada
 			System.out.println(ex.getMessage());
 			ex.printStackTrace();
 		}
